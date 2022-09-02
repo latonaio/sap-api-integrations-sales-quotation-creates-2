@@ -19,7 +19,7 @@ sap-api-integrations-sales-quotation-creates は、外部システムがクラ�
 sap-api-integrations-sales-quotation-creates が対応する APIサービス は、次のものです。
 
 * APIサービス概要説明 URL: https://api.sap.com/api/OP_API_SALES_QUOTATION_SRV_0001/overview  
-* APIサービス名(=baseURL): API_PRODUCT_SRV
+* APIサービス名(=baseURL): API_SALES_QUOTATION_SRV
 
 ## 本レポジトリ に 含まれる API名
 sap-api-integrations-sales-quotation-creates には、次の API をコールするためのリソースが含まれています。  
@@ -38,7 +38,7 @@ accepter において 下記の例のように、データの種別（＝APIの�
 ここでは、"Header", "Item" が指定されています。
 
 ```
-"api_schema": "SAPSalesQuotationCreate",
+"api_schema": "SAPSalesQuotationCreates",
 "accepter": ["Header", "Item"],
 "sales_quotation": "1",
 "deleted": false
@@ -49,7 +49,7 @@ accepter において 下記の例のように、データの種別（＝APIの�
 全データを登録する場合、sample.json は以下のように記載します。  
 
 ```
-"api_schema": "SAPSalesQuotationCreate",
+"api_schema": "SAPSalesQuotationCreates",
 "accepter": ["All"],
 "sales_quotation": "1",
 "deleted": false
